@@ -1,0 +1,584 @@
+/*---- Layout ----*/
+div
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 20px;
+    margin: 0;
+}
+
+/*---- Visual Elements ----*/
+body /*background behind*/
+{
+    background-image: url(../images/wheat_bkgrd.jpg);
+    background-repeat: repeat-x;
+    color: #000;
+    padding: 20px;
+    margin: 0;
+}
+
+#pageFrame /*this is left column*/
+{
+    color: #000;
+    background-image: url(../images/wheat_bkgrd.jpg);
+    background-repeat: repeat-x;
+    min-width: 500px;
+}
+
+#masthead
+{
+    background-image: url(../images/wheat_lft.jpg);
+    background-position: right;
+    background-color: #a0522d; /*burnt orange*/
+    background-repeat: no-repeat;
+    height: 178px;
+}
+
+#logo {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -9px;
+}
+
+#collage {
+    background-image: url(../images/photos2.gif); /*christmas*/
+    background-position: right;
+    height: 178px;
+    background-repeat: no-repeat;
+}
+
+#bikecollage {
+    background-image: url(../images/bikephotos.gif);
+    background-position: right;
+    height: 178px;
+    background-repeat: no-repeat;
+}
+
+#reccollage {
+    background-image: url(../images/rec.gif);
+    background-position: right;
+    height: 178px;
+    background-repeat: no-repeat;
+}
+
+/*********************************************paragraph, ordered lists, block quote, headlines**********************************/
+p
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+li
+{
+    list-style-type: square;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+}
+
+li.headline
+{
+    line-height: 26px;
+}
+
+blockquote {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 /*largest headline*/
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d26347; /*salmon brown*/
+}
+
+h2 /*middle headline aligned center*/
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+}
+
+h3
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4 /*small headline left aligned*/
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d26347; /*salmon brown*/
+    font-variant: small-caps;
+}
+
+/************************************************************************************end*********************************/
+.links /*buttons in main text*/
+{
+    margin: 0px;
+    width: 150px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 5px;
+    background-color: #f4a460; /*orange*/
+    border: 4px double #d26347; /*orange*/
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.links a, .links a:visited {
+    border: 4px none #000;
+    text-decoration: none;
+    color: #000;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #d26347;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #99CC66;
+}
+
+.links a:hover
+{
+    text-decoration: underline;
+    color: #7e4f33; /*chocolate brown*/
+    border: 4px none #fff;
+}
+
+.revisedcode {
+    margin: 0px;
+    width: 150px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #CC0000;
+    border: 4px double #000;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.revisedcode a, .revisedcode a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.revisedcode a:hover {
+    text-decoration: underline;
+    color: #000;
+    border: 4px none #fff;
+}
+
+.emergencybutton {
+    margin: 0px;
+    width: 450px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 7px;
+    background-color: #CC0000;
+    border: 4px double #000;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*************************************************small text changes******************************/
+.red {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.smalltext
+{
+    font-size: 9px;
+    font-style: italic;
+}
+
+/****************************back to top*****************************************************/
+.backtotop a, .backtotop a:link, .backtotop a:visited
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #333333;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.backtotop a:hover
+{
+    color: #cccd94;
+}
+
+/*******************************************other info*************************************/
+#masthead h1
+{
+    /*display:inline;*/
+}
+
+#leftcolumn
+{
+    margin-right: -200px; /* IE 4 fix */
+}
+
+#leftColumn
+{
+    float: left;
+    width: 200px;
+    /*/*/
+    /*/margin: 0 0 0 2px; /* Silly Netscape hack to get the borders to line up */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7e4f33;
+    line-height: 16px;
+}
+
+#rightColumn
+{
+    float: right;
+    width: 200px;
+}
+
+#contentColumn
+{
+    width: auto;
+    margin-left: 199px;
+    background-color: #FFf;
+}
+
+#masthead, #innerLeftColumn, #innerContentColumn, #innerRightColumn,
+#innerFooter
+{
+    padding: 10px;
+}
+
+#footer
+{
+    clear: both;
+}
+
+#innerFooter
+{
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #f4a460; /**/
+    color: #333333;
+}
+
+#designer
+{
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #f4a460; /**/
+    color: #333333;
+}
+
+#innerContentColumn
+{
+    overflow: visible;
+    height: 100%; /* fix the Win32 IE float bug */
+    margin-right: 0px;
+    /*/*/
+    /*/margin: 0 0 0 2px; /* Silly Netscape hack to get the borders to line up */
+}
+
+#contentColumn > #innerContentColumn
+{
+    height: auto; /* fix Opera 5 which breaks with the above IE fix */
+}
+
+#innercontentcolumn
+{
+    height: 100%; /* fix IE 5.0 which parse the Opera fix, note the selector is all lower case */
+}
+
+#masthead, #footer
+{
+    z-index: 10;
+}
+
+/*---- Borders ----*/
+#pageFrame
+{
+    border: 1px solid #7e4f33;
+}
+
+#footer, #masthead, #innerLeftColumn, #contentColumn, #innerContentColumn
+{
+    border: solid 0px #7e4f33;
+}
+
+#footer
+{
+    border-top-width: 1px;
+}
+
+#masthead
+{
+    border-bottom-width: 0px;
+}
+
+/*#innerLeftColumn, #innerContentColumn
+{
+border-right-width: 1px;
+}*/
+#contentColumn
+{
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-top-color: #7e4f33;
+}
+
+/**********************************************nest list********************************************************/
+
+#navcontainer {
+    margin-left: 0px;
+}
+
+#navcontainer ul
+{
+    margin: 0;
+    padding-bottom: 0px;
+    list-style-type: none;
+    font-family: verdana, arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#navlist
+{
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+    border-bottom: 1px solid #7e4f33;
+    width: 170px;
+}
+
+#navlist li
+{
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #7e4f33;
+}
+
+#subnavlist
+{
+    padding-left: 10px;
+}
+
+#navlist li a {
+    background-image: url(../images/sm_bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 .7em;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #7e4f33;
+}
+
+#navlist li a:hover {
+    color: #cccd94; /*556b2f*/
+    background-image: url(../images/sm_bulletgrn.gif);
+    background-repeat: no-repeat;
+    background-position: 0 .7em;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/***************************************table information***********************************/
+
+.basic2col, .photogallery, .basic3col, .basic
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #cccd94;
+}
+
+.facts {
+    background-color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    border: 1px solid #222d94;
+    padding: 10px;
+}
+
+.basic2col th, .basic3col th
+{
+    background-color: #f4a460;
+    color: #000;
+    text-align: left;
+}
+
+.basic2col tr
+{
+    background-color: #f4a460;
+}
+
+.basic tr {
+    background-color: #FFFFFF;
+}
+
+.basic2col td a, .basic2col td a:visited
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+.basic2col td a:hover
+{
+    text-decoration: underline;
+    color: #7e4f33;
+}
+
+.basic2col td, .photogallery td, .basic3col td
+{
+    border: 1px solid #cccd94;
+}
+
+.basic2col td.dkline
+{
+    border: 1px solid #7e4f33;
+}
+
+.basic2col td.odd, .basic3col td.odd
+{
+    background-color: #ffe4c4;
+    color: #000000;
+}
+
+.photogallery td.odd
+{
+    background-color: #f8e78b;
+}
+
+.basic2col td.even, .basic3col td.even
+{
+    background-color: #fffff0;
+    color: #000000;
+}
+
+.photogallery td.even
+{
+    background-color: #fffff0;
+}
+
+/*********************************pictures****************************************/
+
+.juniorhgh, .elementary, .high, .stmarys
+{
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    border: 4px double #7e4f33;
+}
+
+.watertip
+{
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: #add8e6;
+    border: 2px solid #4169e1;
+    padding: 7px;
+    margin-bottom: 14px;
+}
+
+.energytip
+{
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #e6e6fa;
+    border: 3px double #8a2be2;
+    padding: 10px;
+    margin-bottom: 14px;
+}
+
+.photo
+{
+    border: 1px solid #000;
+    width: 135px;
+    height: 115px;
+    margin-right: 20px;
+}
+
+/************************************this is UL list*****************************************************/
+
+.headlinelist
+{
+    border: 0px solid #000;
+    width: 450px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.utilitylist
+{
+    border: 1px solid #000;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+#errordiv {
+    border: 1px solid red;
+    background-color: #FFAFAF;
+    display: none;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.required {
+    background-color: #CC4444;
+}
+
+.required:focus {
+    background-color: #fff;
+    border: 1px solid #f00;
+}
+
+.checkit {
+    background-color: #E0E5EF;
+}
+
+.photoleft {
+    margin-right: 5px;
+}
+
+.photorgt {
+    margin-left: 5px;
+}
+
+

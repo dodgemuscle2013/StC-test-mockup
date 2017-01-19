@@ -1,0 +1,37 @@
+
+<?php
+
+preload_image0 = new Image(25, 25);
+preload_image0.src = 'http://www.elocallink.tv/clients3/oh/stclairsville/wel.jpg';
+preload_image1 = new Image(25, 25);
+preload_image1.src = 'http://www.elocallink.tv/clients3/oh/stclairsville/edu.jpg';
+preload_image2 = new Image(25, 25);
+preload_image2.src = 'http://www.elocallink.tv/clients3/oh/stclairsville/qu.jpg';
+preload_image3 = new Image(25, 25);
+preload_image3.src = 'http://www.elocallink.tv/clients3/oh/stclairsville/com.jpg';
+preload_mimage = new Image(25, 25);
+preload_mimage.src = 'http://www.elocallink.tv/clients3/oh/stclairsville/main.jpg';
+document.write('<div id=\'tourbookdiv\' style=\'position:relative; width:147px; height:auto; border-width:0px; border-color:#000000; border-style:solid\'></div>');
+document.getElementById('tourbookdiv').innerHTML += '<div style=\'margin:0px\'><img style="display:block; padding:0px" src=\'http://www.elocallink.tv/clients3/oh/stclairsville/tourheader_nb.png\'></div>';
+document.getElementById('tourbookdiv').innerHTML += '<div style=\'margin:0px; padding:0px; background-image:url(http://www.elocallink.tv/ellsrc/img/tourbookbackground_nb.png)\'><img id=\'ellSwitchImage\' src=\'http://www.elocallink.tv/clients3/oh/stclairsville/main.jpg\' style=\'display:block;padding:0px; padding-left:4px;border-width:0px;margin:0px; border-color:#000000; border-style:solid\'></div><div id=\'tourbookmenu\' align=\'left\' style=\'font-family:Arial; font-size:11px;border-width:0px; border-color:#000000; border-style:solid;margin:0px;position:relative; height:auto; padding:0px; background-image:url(http://www.elocallink.tv/ellsrc/img/tourbookbackground_nb.png)\'><img src=\'http://www.elocallink.tv/ellsrc/spacer.gif\' style=\'position:absolute; padding:0px\'></div>';
+document.getElementById('tourbookmenu').innerHTML += '<a style =\'padding:0px; margin:0px; text-decoration:none\' href=\'javascript;\' onclick=\'ellOpenWindow(\"http://www.elocallink.tv/clients3/oh/stclairsville/tourplay.php?movie=ohstcl13_wel_rev2_iwd&spon=welcome\", 874, 692); return false;\'><div id=\'ellmenudiv0\' onmouseout=\'javascript:ellmouseout()\' onmouseover=\'javascript:ellmouseover(\"http://www.elocallink.tv/clients3/oh/stclairsville/wel.jpg\", \"ellmenudiv0\")\' style=\'cursor:pointer;height:auto; padding:0px; text-align:left; position:relative; z-index:1; margin-left:4px;margin-top:0px; width:139px; font-weight:bold; color:#333333; padding-right:0px;padding-top:6px; padding-bottom:6px; padding-left:0px; height:auto; border-width:0px; border-color:#000000; border-style:solid\'><div style=\'margin-left: 7px;color:#333333; width: 120px;\'>Welcome</div></div><div style=\'position:relative;margin-left:4px; width:139px; height:1px;padding:0px; overflow:hidden; background-color:#AAAAAA; margin-top:0px\'></div><div style=\'position:relative;padding:0px;margin-left:4px; width:139px; height:1px; overflow:hidden; background-color:#FFFFFF;margin-top:0px\'></div></a>';
+document.getElementById('tourbookmenu').innerHTML += '<a style =\'padding:0px; margin:0px; text-decoration:none\' href=\'javascript;\' onclick=\'ellOpenWindow(\"http://www.elocallink.tv/clients3/oh/stclairsville/tourplay.php?movie=ohstcl13_edu_rev2_iwd&spon=educatio\", 874, 692); return false;\'><div id=\'ellmenudiv1\' onmouseout=\'javascript:ellmouseout()\' onmouseover=\'javascript:ellmouseover(\"http://www.elocallink.tv/clients3/oh/stclairsville/edu.jpg\", \"ellmenudiv1\")\' style=\'cursor:pointer;height:auto; padding:0px; text-align:left; position:relative; z-index:1; margin-left:4px;margin-top:0px; width:139px; font-weight:bold; color:#333333; padding-right:0px;padding-top:6px; padding-bottom:6px; padding-left:0px; height:auto; border-width:0px; border-color:#000000; border-style:solid\'><div style=\'margin-left: 7px;color:#333333; width: 120px;\'>Education</div></div><div style=\'position:relative;margin-left:4px; width:139px; height:1px;padding:0px; overflow:hidden; background-color:#AAAAAA; margin-top:0px\'></div><div style=\'position:relative;padding:0px;margin-left:4px; width:139px; height:1px; overflow:hidden; background-color:#FFFFFF;margin-top:0px\'></div></a>';
+document.getElementById('tourbookmenu').innerHTML += '<a style =\'padding:0px; margin:0px; text-decoration:none\' href=\'javascript;\' onclick=\'ellOpenWindow(\"http://www.elocallink.tv/clients3/oh/stclairsville/tourplay.php?movie=ohstcl13_qol_rev2_iwd&spon=qualityo\", 874, 692); return false;\'><div id=\'ellmenudiv2\' onmouseout=\'javascript:ellmouseout()\' onmouseover=\'javascript:ellmouseover(\"http://www.elocallink.tv/clients3/oh/stclairsville/qu.jpg\", \"ellmenudiv2\")\' style=\'cursor:pointer;height:auto; padding:0px; text-align:left; position:relative; z-index:1; margin-left:4px;margin-top:0px; width:139px; font-weight:bold; color:#333333; padding-right:0px;padding-top:6px; padding-bottom:6px; padding-left:0px; height:auto; border-width:0px; border-color:#000000; border-style:solid\'><div style=\'margin-left: 7px;color:#333333; width: 120px;\'>Quality of Life</div></div><div style=\'position:relative;margin-left:4px; width:139px; height:1px;padding:0px; overflow:hidden; background-color:#AAAAAA; margin-top:0px\'></div><div style=\'position:relative;padding:0px;margin-left:4px; width:139px; height:1px; overflow:hidden; background-color:#FFFFFF;margin-top:0px\'></div></a>';
+document.getElementById('tourbookmenu').innerHTML += '<a style =\'padding:0px; margin:0px; text-decoration:none\' href=\'javascript;\' onclick=\'ellOpenWindow(\"http://www.elocallink.tv/clients3/oh/stclairsville/tourplay.php?movie=rrs_com_organization_cvn_iwd&spon=communit\", 874, 692); return false;\'><div id=\'ellmenudiv3\' onmouseout=\'javascript:ellmouseout()\' onmouseover=\'javascript:ellmouseover(\"http://www.elocallink.tv/clients3/oh/stclairsville/com.jpg\", \"ellmenudiv3\")\' style=\'cursor:pointer;height:auto; padding:0px; text-align:left; position:relative; z-index:1; margin-left:4px;margin-top:0px; width:139px; font-weight:bold; color:#333333; padding-right:0px;padding-top:6px; padding-bottom:6px; padding-left:0px; height:auto; border-width:0px; border-color:#000000; border-style:solid\'><div style=\'margin-left: 7px;color:#333333; width: 120px;\'>Community Organizations</div></div><div style=\'position:relative;margin-left:4px; width:139px; height:1px;padding:0px; overflow:hidden; background-color:#AAAAAA; margin-top:0px\'></div><div style=\'position:relative;padding:0px;margin-left:4px; width:139px; height:1px; overflow:hidden; background-color:#FFFFFF;margin-top:0px\'></div></a>';
+document.getElementById('tourbookdiv').innerHTML += '<img src=\'http://www.elocallink.tv/ellsrc/img/tourbookbottom_nb.png\' style=\'padding:0px\'>';
+function ellmouseover(newsrc, divname) {
+    document.getElementById('ellSwitchImage').src = newsrc;
+    document.getElementById(divname).style.backgroundColor = '#c5e5ff';
+}
+function ellmouseout() {
+    document.getElementById('ellmenudiv' + 0).style.backgroundColor = '';
+    document.getElementById('ellmenudiv' + 1).style.backgroundColor = '';
+    document.getElementById('ellmenudiv' + 2).style.backgroundColor = '';
+    document.getElementById('ellmenudiv' + 3).style.backgroundColor = '';
+}
+function ellOpenWindow(url, w, h) {
+    var windowprops = "width=1000,height=705, top=5,left=5,status=0, scrollbars=yes";
+    popup = window.open(url, "remote", windowprops);
+}
+
+?>
